@@ -71,7 +71,20 @@
                                         <label for="basicInput">Mengajar</label> <span class="text-danger">*</span>
                                         <select name="mengajar" class="form-control @error('mengajar') is-invalid @enderror">
                                             <option value="">-- Pilih --</option>
-                                            <option value="Matematika">Matematika</option>
+                                            <option value="Kepala Sekolah">Kepala sekolah</option>
+                                            <option value="Wakil Kepala">Wakil Kepala</option>
+                                            <option value="Matematika">Guru Matematika</option>
+                                            <option value="Guru Indo">Guru Bahasa Indo</option>
+                                            <option value="Guru ips">Guru Ips</option>
+                                            <option value="Guru pjok">Guru Pjok</option>
+                                            <option value="Guru Seni Budaya">Guru Seni Budaya</option>
+                                            <option value="Guru Bahasa Jawa">Guru Bahasa Jawa</option>
+                                            <option value="Guru Bahasa Inggris">Guru Bahasa Inggris</option>
+                                            <option value="Guru TIK">Guru TIK</option>
+                                            <option value="Guru BK">Guru BK</option>
+                                            <option value="Guru Agama">Guru Agama</option>
+                                            <option value="Guru Ipa">Guru Ipa</option>
+                                            <option value="Guru PPKN">Guru PPKN</option>
                                         </select>
                                         @error('mengajar')
                                             <div class="invalid-feedback">
